@@ -132,7 +132,7 @@ class CreamyBaconBuilder(object):
         for i in (PizzaTopping.mozzarella, PizzaTopping.bacon,
                   PizzaTopping.ham, PizzaTopping.mushrooms,
                   PizzaTopping.red_onion, PizzaTopping.oregano):
-            self.pizza.topping.append(i)
+            self.pizza.topping.append(i) # 添加进的是enum的编号
         time.sleep(STEP_DELAY)
         print('done with the topping (mozzarella bacon ham mushroom'
               ' red_onion oregano)')
