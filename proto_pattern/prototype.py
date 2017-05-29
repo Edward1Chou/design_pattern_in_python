@@ -78,9 +78,6 @@ class Prototype(object):
 
 
 if __name__ == '__main__':
-    """
-    main function
-    """
     b1 = Book('The C Programming Language', ('Brian W. Kernighan', 'Dennis M. Ritchie'),
               price=118, publisher='Prentice Hall', length=228, publication_date='1978-02-22',
               tags=('C', 'programming', 'algorithms', 'data structure'))
